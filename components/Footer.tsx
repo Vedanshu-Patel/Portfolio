@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="glass">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 md:flex-row">
           <p className="text-sm text-muted">
-            © {new Date().getFullYear()} {profile.name}. Built with Next.js + Tailwind.
+            © {new Date().getFullYear()} {profile.name}
           </p>
           <div className="flex items-center gap-3">
             <a
