@@ -7,12 +7,12 @@ import { useSound } from './SoundProvider';
 import { cn } from '@/lib/utils';
 
 const NAV_LINKS = [
-  { href: '#home', label: 'Home' },
-  { href: '#experience', label: 'Experience' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#education', label: 'Education' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/#home', label: 'Home' },
+  { href: '/#experience', label: 'Experience' },
+  { href: '/#projects', label: 'Projects' },
+  { href: '/#skills', label: 'Skills' },
+  { href: '/#education', label: 'Education' },
+  { href: '/#contact', label: 'Contact' },
 ];
 
 export default function Nav() {
@@ -24,7 +24,7 @@ export default function Nav() {
       <div className="glass-strong border-b border-white/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <Link
-            href="#home"
+            href="/"
             onClick={() => play('click')}
             className="font-mono text-sm text-foreground/80 transition-colors hover:text-accent-glow"
           >
